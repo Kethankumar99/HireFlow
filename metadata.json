@@ -1,0 +1,6 @@
+{
+  "name": "DeepHire",
+  "description": "AI-Powered Recruitment Intelligence platform for parsing resumes, mapping job descriptions, scoring candidates, and viewing original PDFs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

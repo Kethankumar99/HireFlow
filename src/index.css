@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Custom global styles to match the GitHub aesthetic */
+body {
+  background-color: #f6f8fa;
+  color: #1f2328;
+  font-family: var(--font-sans);
+}
+
+.id-badge {
+  font-family: var(--font-mono);
+}
